@@ -6,7 +6,11 @@
 
 # Membros do projeto:
 ![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Maria.png)
+Git: https://github.com/MariaAbritta
 ![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Pedro.png)
+Git: https://github.com/pedrobarbosaocb
 ![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Alexia.png)
+Git: https://github.com/alexianaa
 ![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Rapha.png)
+Git: https://github.com/raphaelnb
 
