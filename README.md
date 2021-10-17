@@ -6,3 +6,6 @@
 
 # Membros do projeto:
 ![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Mariaa.png)
+![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Pedro.png)
+![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Alexia.png)
+![alt text](https://github.com/MariaAbritta/SiteProject/blob/Fotos-dos-membros/Rapha.png)
