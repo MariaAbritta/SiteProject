@@ -63,32 +63,33 @@
     margin-right: 15px;
 }
 
-.imagens {
+/* blocos de servicos prestados */ 
+.caixas {
     margin: 50px;
     margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 60px;
     align-items: center;
 }
 
-.imagens > article{
+.caixas > article{
     background-color: rgb(223, 223, 223);
     border: none;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 3);
     border-radius: 20px;
     text-align: center;
     width: 250px;
-    height: 300px;
+    height: 350px;
     transition: transform .3s;
 }
 
-.imagens >article:hover {
+.caixas >article:hover {
     transform: translateY(5px);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 3);
 }
 
-.imagens >article img {
+.caixas >article img {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -96,4 +97,20 @@
 
 .text {
     padding: 0px 20px 20px ;
+}
+
+.text h3{
+    text-transform: uppercase;
+}
+
+.text button{
+    background: #12482E;
+    border-radius: 20px;
+    border: none;
+    color: antiquewhite;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
 }
