@@ -63,6 +63,25 @@
     margin-right: 15px;
 }
 
+/* blocos de intro e gamificacao*/
+.intro_gamificacao {
+    margin: 100px;
+    margin-top: 80px;
+}
+
+.intro_gamificacao p {
+    text-align: justify;
+    padding: 0 0 30px;
+}
+
+.intro {
+    padding-left: 200px;
+}
+
+.gamificacao {
+    padding-right: 200px;
+}
+
 /* blocos de servicos prestados */ 
 .caixas {
     margin: 50px;
