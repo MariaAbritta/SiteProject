@@ -1,23 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-.navbar{
+.navbar {
     background: #12482E;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    /*position: sticky;*/
     top: 0;
     z-index: 999;
 }
 
-.navbar__container{
+.navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -26,28 +25,27 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
-
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     padding: 1rem 0;
     height: 100%;
 }
 
-.navbar__menu{
+.navbar__menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
 
-.navbar__item{
+.navbar__item {
     height: 80px;
 }
 
-.navbar__links{
+.navbar__links {
     color: aliceblue;
     display: flex;
     align-items: center;
@@ -63,23 +61,58 @@
     margin-right: 15px;
 }
 
-/* blocos de intro e gamificacao*/
+/* Dancing Orc */
+.imgcontainer {
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    padding-bottom: 10px;
+    border: black;
+}
+
+.imgcontainer img {
+    position: absolute;
+    height: 200px;
+    top: 140px;
+    width: auto;
+}
+
+.OrcDarkMode {
+    opacity: 0;
+}
+
+.imgcontainer:hover .OrcLightMode {
+    opacity: 0;
+}
+
+.imgcontainer:hover .OrcDarkMode {
+    opacity: 1;
+}
+
+/* blocos de intro e gamificacao */
 .intro_gamificacao {
+    display: block;
     margin: 100px;
     margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1200px;
+    top: 20px;
 }
 
 .intro_gamificacao p {
+    text-indent: 50px;
     text-align: justify;
     padding: 0 0 30px;
 }
 
 .intro {
-    padding-left: 200px;
+    display: flex;
 }
 
-.gamificacao {
-    padding-right: 200px;
+.textcontainer {
+    padding-left: 200px;
 }
 
 /* blocos de servicos prestados */ 
