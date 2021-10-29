@@ -133,3 +133,56 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
+/* bloco do blog */
+#blog-row {
+    display: grid;
+    grid-template-rows: 3;
+    padding: 5em;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    margin: 5em;
+}
+
+.caixa-blog {
+    border-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em;
+    text-align: center;
+}
+
+.img-blog {
+    width: 280px;
+    height: auto;
+}
+
+.titulo-blog {
+    display: grid;
+    padding: 0.5em;
+    justify-self: center;
+}
+
+#text-blog {
+    text-align: left;
+}
+
+#button-blog {
+    background: #12482e;
+    border-radius: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 1.2em;
+    width: 15%;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
