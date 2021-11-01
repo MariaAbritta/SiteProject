@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -112,6 +113,10 @@
     text-indent: 50px;
     text-align: justify;
     padding: 0 0 30px;
+}
+
+.intro_gamificacao h1 {
+    font-family: Gemunu Libre;
 }
 
 .intro {
