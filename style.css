@@ -11,6 +11,8 @@
 }
 
 .navbar {
+    position: fixed;
+    width: 100%;
     background: #12482E;
     height: 80px;
     display: flex;
