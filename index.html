@@ -57,24 +57,24 @@
             </div>
         </div>
         <div class="gamificacao">
-            <h1>Gamificação</h1><br>
+            <h2>Gamificação</h2><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         </div>
     </div>
   
     <!-- Serviços prestados -->
     <div class="conteudo">
-        <hr>
-        <h1 style="margin-left: 3em; margin-top: 2em;" >Serviços da empresa:</h1>
+        <hr><br>
+        <text class="servicos_title" style="margin-left: 3em; margin-top: 2em;" >Serviços da empresa:</text>
         <div class="servicos">
             <main class="caixas">
                 <article>
                     <img src="images/servicos/design.png" >
                     <br><br>
                     <div class="text">
-                        <h3>Design de Gamificação</h3>
+                        <h2>Design de Gamificação</h2>
                         <br>
-                        <button>Saiba mais</button>
+                        <button id="button_design" >Saiba mais</button>
                     </div>
                 </article>
 
@@ -82,9 +82,9 @@
                     <img src="images/servicos/consultoria.png" >
                     <br><br>
                     <div class="text">
-                        <h3>Consultoria de Gamificação</h3>
+                        <h2>Consultoria de Gamificação</h2>
                         <br>
-                        <button>Saiba mais</button>
+                        <button id="button_consultoria" >Saiba mais</button>
                     </div>
                 </article>
 
@@ -92,9 +92,9 @@
                     <img src="images/servicos/treinamento.png" >
                     <br><br>
                     <div class="text">
-                        <h3>Treinamento e Orc'shops</h3>
+                        <h2>Treinamento e Orc'shops</h2>
                         <br>
-                        <button>Saiba mais</button>
+                        <button id="button_treinamento" >Saiba mais</button>
                     </div>
                 </article>
 
@@ -102,9 +102,9 @@
                     <img src="images/servicos/desenvolvimento.png" >
                     <br><br>
                     <div class="text">
-                        <h3>Desenvolvimento de Software</h3>
+                        <h2>Desenvolvimento de Software</h2>
                         <br>
-                        <button>Saiba mais</button>
+                        <button id="button_desenvolvimento">Saiba mais</button>
                     </div>
                 </article>
             
@@ -141,5 +141,24 @@
 
     </div>
 
+    <script type="text/javascript">
+        document.getElementById("button_design").onclick = function () {
+            location.href = "servicos_design.html";
+        };
+
+        document.getElementById("button_consultoria").onclick = function () {
+            location.href = "servicos_consultoria.html";
+        };
+
+        document.getElementById("button_treinamento").onclick = function () {
+            location.href = "servicos_treinamento.html";
+        };
+
+        document.getElementById("button_desenvolvimento").onclick = function () {
+            location.href = "servicos_desenvolvimento.html";
+        };
+    </script>
 </body>
 </html>
+
+
