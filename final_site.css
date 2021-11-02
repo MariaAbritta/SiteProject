@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gemunu Libre', sans-serif;
+  color: #21081a;
+}
+
+/*HEADER*/
+
+.header-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fffbdc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0 112px;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #12482e;
+}
+
+h2 {
+  font-size: 21px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+a {
+  color: #21081a;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+  color: #12482e;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+}
+
+.social-media {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #12482e;
+  padding: 1rem 2rem;
+  border: 2px solid #12482e;
+  min-width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+  margin: 1px;
+}
+
+a:hover {
+  background-color: #a3ed83;
+}
+
+.map {
+  position: absolute;
+  left: 750px;
+  top: 120px;
+}
+
+/*FOOTER*/
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #12482e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
