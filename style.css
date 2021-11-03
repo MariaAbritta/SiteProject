@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -192,6 +195,10 @@
     display: grid;
     grid-template-rows: 3;
     padding: 5em;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+#h1-blog {
+    font-family: "Gemunu Libre";
 }
 
 .blog {
@@ -209,6 +216,11 @@
     text-align: center;
 }
 
+.caixa-blog:hover {
+    transform: translateY(5px);
+    transition: transform .3s;
+}
+
 .img-blog {
     width: 280px;
     height: auto;
@@ -218,10 +230,12 @@
     display: grid;
     padding: 0.5em;
     justify-self: center;
+    font-family: 'Gemunu Libre';
 }
 
-#text-blog {
+.text-blog {
     text-align: left;
+    font-family: "Gemunu Libre", sans-serif;
 }
 
 #button-blog {
@@ -236,6 +250,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    text-decoration: none;
+}
 
+#button-blog:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.link-blog {
+    text-decoration: none;
 }
