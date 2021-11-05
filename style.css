@@ -80,9 +80,10 @@
 
 .imgcontainer img {
     position: absolute;
-    height: 200px;
+    height: 300px;
     top: 140px;
     width: auto;
+    margin-left: -60px;
 }
 
 .OrcDarkMode {
@@ -107,6 +108,7 @@
     width: 80%;
     max-width: 1200px;
     top: 20px;
+    font-size: 1.5vw;
 }
 
 .intro_gamificacao p {
