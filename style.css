@@ -128,10 +128,10 @@
 }
 
 /* blocos de servicos prestados */ 
-.servicos_title {
+
+.titles {
     font-size: 40px;
     padding: 20px;
-    font-family: "Gemunu Libre";
 }
 
 .caixas {
@@ -141,7 +141,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 60px;
     align-items: center;
-    font-family: "Gemunu Libre";
 }
 
 .caixas > article{
@@ -191,12 +190,7 @@
 #blog-row {
     display: grid;
     grid-template-rows: 3;
-    padding: 5em;
     font-family: 'Gemunu Libre', sans-serif;
-}
-#h1-blog {
-    font-family: "Gemunu Libre";
-    color: #21081A;
 }
 
 .blog {
